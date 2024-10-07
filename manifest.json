@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "AI Interview Assistant",
+    "version": "1.0",
+    "description": "Monitors audio and answers questions in real-time using AI",
+    "permissions": [
+      "tabCapture",
+      "storage",
+      "activeTab",
+      "scripting",
+      "sidePanel"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_icon": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      }
+    },
+    "side_panel": {
+      "default_path": "sidepanel.html"
+    },
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+}
