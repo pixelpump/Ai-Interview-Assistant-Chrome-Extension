@@ -4,6 +4,10 @@
 
 The AI Interview Assistant is a Chrome extension designed to help users during interviews or meetings by providing real-time AI-powered responses to questions. It listens to the audio from the current tab, transcribes the speech, identifies questions, and generates concise answers using OpenAI's GPT model.
 
+<div align="center">
+	<img src="screenshot.png">
+</div>
+
 ## Features
 
 - Real-time audio capture from the current tab
